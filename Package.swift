@@ -4,9 +4,9 @@ import PackageDescription
 
 let package = Package(
   name: "CryptoSwift",
-  platforms: [
-    .macOS(.v10_13), .iOS(.v11), .tvOS(.v11), .watchOS(.v4)
-  ],
+  // platforms: [
+  //   .macOS(.v10_13), .iOS(.v11), .tvOS(.v11), .watchOS(.v4)
+  // ],
   products: [
     .library(
       name: "CryptoSwift",
